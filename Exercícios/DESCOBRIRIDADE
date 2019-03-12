@@ -1,0 +1,11 @@
+algoritmo "Creuza01"
+var
+   ano, nasc, idade: Inteiro
+inicio
+   Escreva("Em que ano nós estamos? ")
+   Leia(ano)
+   Escreva("Em que ano você nasceu? ")
+   Leia(nasc)
+   idade <- ano - nasc
+   Escreval("Sua idade é ", idade," anos")
+fimalgoritmo
