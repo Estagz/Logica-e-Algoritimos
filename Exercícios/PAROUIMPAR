@@ -1,0 +1,12 @@
+algoritmo "ParOuImpar"
+var
+   n: Inteiro
+inicio
+   Escreva("Digite um numero: ")
+   Leia(n)
+   Se (n % 2 = 0) entao
+      Escreval("O numero ", n, " é PAR")
+   Senao
+      Escreva("O número ", n, " é ÍMPAR")
+   FimSe
+fimalgorit
