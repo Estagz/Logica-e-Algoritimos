@@ -1,0 +1,16 @@
+algoritmo "CondicionalIdade"
+var
+   ano, nasc, idade: Inteiro
+inicio
+   Escreva("Em que ano nós estamos? ")
+   Leia(ano)
+   Escreva("Em que ano você nasceu? ")
+   Leia(nasc)
+   idade <- ano - nasc
+   Escreval("Sua idade é ", idade," anos")
+   Se (idade>= 21) entao
+      Escreva("E você já terá atingido a maior idade")
+   Senao
+      Escreva("Você é menor de idade")
+   FimSe
+fimalgoritmo
