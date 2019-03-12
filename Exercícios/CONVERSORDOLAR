@@ -1,0 +1,9 @@
+algoritmo "Creuza02"
+var
+   reais, dolares: Real
+inicio
+   Escreva("Quantos reias eu tenho? R$ ")
+   Leia(reais)
+   dolares <- reais/3.84
+   Escreva("Posso ter U$$ ", dolares)
+fimalgoritmo
