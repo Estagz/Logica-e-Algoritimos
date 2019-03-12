@@ -1,0 +1,23 @@
+algoritmo "Detran"
+var
+   ano, nasc, idade: Inteiro
+inicio
+   Escreval("-------------------------")
+   Escreval("DEPARTAMENTO DE TRÂNSITO")
+   Escreval("-------------------------")
+   Escreva("Ano Atual (yyyy): ")
+   Leia(ano)
+   Escreva("Ano de Nascimento (yyyy): ")
+   Leia(nasc)
+   Escreval("")
+   Escreval("---------STATUS----------")
+   idade <- ano - nasc
+   Escreval("IDADE: ",idade," anos")
+   Se (idade >= 18) entao
+      Escreval("APTO A TIRAR CARTEIRA")
+      Escreva("--------------------------")
+   Senao
+      Escreval("INAPTO A TIRAR CARTEIRA")
+      Escreva("--------------------------")
+   FimSE
+fimalgoritmo
