@@ -1,0 +1,12 @@
+algoritmo "Creuza05"
+var
+   emprestimo, juros, parcelas, vezes: Real
+inicio
+   Escreva("Qual o valor do empréstimo? R$ ")
+   Leia(emprestimo)
+   Escreva("Quantas parcelas vai pagar? ")
+   Leia(parcelas)
+   juros <- emprestimo + (emprestimo * 20) / 100
+   vezes <- juros / parcelas
+   Escreva("Um empréstimo de R$ ", emprestimo," vai custar R$ ", juros," e a parcela vai ser de R$ ",vezes)
+fimalgorit
