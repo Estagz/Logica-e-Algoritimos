@@ -1,0 +1,21 @@
+algoritmo "AprovadoOuNao"
+var
+   n1, n2, media: Real
+inicio
+   Escreval("----------------------")
+   Escreval("ESCOLA BENEDITO TOLOSA")
+   Escreval("----------------------")
+   Escreva("Primeira Nota: ")
+   Leia(n1)
+   Escreva("Segunda Nota: ")
+   Leia(n2)
+   media <- (n1 + n2) / 2
+   Escreval("----------------------")
+   Escreval("Média: ",media)
+   Se (media >= 7) entao
+      Escreval("ALUNO APROVADO")
+   Senao
+      Escreval("ALUNO REPORVADO")
+   FimSE
+   Escreval("----------------------")
+fimalgoritmo
